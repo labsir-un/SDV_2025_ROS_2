@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sdv_msgs/msg/ImuRaw.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module sdv_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "ImuRaw.msg")
+    struct ImuRaw {
+      std_msgs::msg::Header header;
+
+      geometry_msgs::msg::Vector3 angular_velocity;
+
+      geometry_msgs::msg::Vector3 linear_acceleration;
+
+      geometry_msgs::msg::Vector3 magnetic_field;
+    };
+  };
+};

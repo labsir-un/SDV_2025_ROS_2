@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>sdv_nav</name>
+  <version>0.1.0</version>
+  <description>The sdv_nav ROS 2 package</description>
+
+  <maintainer email="cafsanchezdi@unal.edu.co">admin</maintainer>
+  <license>GPL</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>tf_transformations</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+

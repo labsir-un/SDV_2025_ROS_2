@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>sdv_serial</name>
+  <version>0.1.0</version>
+  <description>Serial communication between tiva_c and PC</description>
+
+  <author email="jfpinedap@unal.edu.com">Juan Francisco Pineda</author>
+  <author email="jhangaritamo@unal.edu.com">Jhonyfer Angarita Moreno</author>
+  <maintainer email="jhangaritamo@unal.edu.com">Jhonyfer Angarita Moreno</maintainer>
+
+  <license>BSD</license>
+
+  <!-- Build dependencies -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>rclcpp</build_depend>
+  <build_depend>serial_driver</build_depend> <!-- Asegúrate de que este paquete esté instalado -->
+  <build_depend>std_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>sdv_msgs</build_depend>
+  
+  <!-- Si no estás generando mensajes ROS, tal vez no necesites 'rosidl_default_generators' -->
+  <!-- <build_depend>rosidl_default_generators</build_depend> -->
+  
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>serial_driver</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>sdv_msgs</exec_depend>
+  <exec_depend>rosbag2</exec_depend> <!-- Solo si es necesario para grabar/reproducir datos -->
+  
+  <!-- Si usas servicios o mensajes ROS, asegúrate de agregar las dependencias necesarias -->
+  <!-- <exec_depend>rosidl_default_runtime</exec_depend> -->
+
+</package>
+

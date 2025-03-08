@@ -1,0 +1,4 @@
+source;share/sdv_scripts/local_setup.bash
+source;share/sdv_scripts/local_setup.dsv
+source;share/sdv_scripts/local_setup.sh
+source;share/sdv_scripts/local_setup.zsh

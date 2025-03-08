@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>sdv_joystick</name>
+  <version>0.1.0</version>
+  <description>The sdv_joystick package to operate the SDV by SSH with a generic joystick.</description>
+
+  <author email="jfpinedap@unal.edu.co">Juan Francisco Pineda</author>
+  <author email="jhangaritamo@unal.edu.co">Jhonyfer Angarita Moreno</author>
+  <maintainer email="cafsanchezdi@unal.edu.co">Jhonyfer Angarita Moreno</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+

@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sdv_msgs/msg/MotorDriver.msg
+// generated code does not contain a copyright notice
+
+
+module sdv_msgs {
+  module msg {
+    module MotorDriver_Constants {
+      const string UNKNOWN = "unknown";
+      const string CORRECT = "correct";
+      const string DAMAGED = "damaged";
+    };
+    @verbatim (language="comment", text=
+      "MotorDriver.msg")
+    struct MotorDriver {
+      string name;
+
+      float current;
+
+      string driver_status;
+    };
+  };
+};

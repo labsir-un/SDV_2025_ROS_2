@@ -1,0 +1,27 @@
+{
+  "package_name": "sdv_msgs",
+  "output_dir": "/home/cafsanchezdi/ros2_ws/build/sdv_msgs/rosidl_generator_type_description/sdv_msgs",
+  "idl_tuples": [
+    "/home/cafsanchezdi/ros2_ws/build/sdv_msgs/rosidl_adapter/sdv_msgs:msg/Batteries.idl",
+    "/home/cafsanchezdi/ros2_ws/build/sdv_msgs/rosidl_adapter/sdv_msgs:msg/Battery.idl",
+    "/home/cafsanchezdi/ros2_ws/build/sdv_msgs/rosidl_adapter/sdv_msgs:msg/Buzzer.idl",
+    "/home/cafsanchezdi/ros2_ws/build/sdv_msgs/rosidl_adapter/sdv_msgs:msg/Drivers.idl",
+    "/home/cafsanchezdi/ros2_ws/build/sdv_msgs/rosidl_adapter/sdv_msgs:msg/Encoder.idl",
+    "/home/cafsanchezdi/ros2_ws/build/sdv_msgs/rosidl_adapter/sdv_msgs:msg/Flexiforce.idl",
+    "/home/cafsanchezdi/ros2_ws/build/sdv_msgs/rosidl_adapter/sdv_msgs:msg/FourMotors.idl",
+    "/home/cafsanchezdi/ros2_ws/build/sdv_msgs/rosidl_adapter/sdv_msgs:msg/ImuRaw.idl",
+    "/home/cafsanchezdi/ros2_ws/build/sdv_msgs/rosidl_adapter/sdv_msgs:msg/LED.idl",
+    "/home/cafsanchezdi/ros2_ws/build/sdv_msgs/rosidl_adapter/sdv_msgs:msg/MotorDriver.idl",
+    "/home/cafsanchezdi/ros2_ws/build/sdv_msgs/rosidl_adapter/sdv_msgs:msg/PanelButton.idl",
+    "/home/cafsanchezdi/ros2_ws/build/sdv_msgs/rosidl_adapter/sdv_msgs:msg/SdvPlatform.idl",
+    "/home/cafsanchezdi/ros2_ws/build/sdv_msgs/rosidl_adapter/sdv_msgs:msg/SdvStatus.idl",
+    "/home/cafsanchezdi/ros2_ws/build/sdv_msgs/rosidl_adapter/sdv_msgs:msg/TagRfid.idl",
+    "/home/cafsanchezdi/ros2_ws/build/sdv_msgs/rosidl_adapter/sdv_msgs:msg/TwoMotors.idl",
+    "/home/cafsanchezdi/ros2_ws/build/sdv_msgs/rosidl_adapter/sdv_msgs:msg/Ultrasound.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs"
+  ]
+}

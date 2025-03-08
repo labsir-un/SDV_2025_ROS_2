@@ -1,0 +1,11 @@
+[0.000000] (-) TimerEvent: {}
+[0.000626] (-) JobUnselected: {'identifier': 'camera_platform'}
+[0.000760] (-) JobUnselected: {'identifier': 'sdv_joystick'}
+[0.000792] (-) JobUnselected: {'identifier': 'sdv_msgs'}
+[0.000806] (-) JobUnselected: {'identifier': 'sdv_nav'}
+[0.000815] (-) JobUnselected: {'identifier': 'sdv_process'}
+[0.000826] (-) JobUnselected: {'identifier': 'sdv_serial'}
+[0.000840] (sdv_scripts) JobQueued: {'identifier': 'sdv_scripts', 'dependencies': OrderedDict({'sdv_msgs': '/home/cafsanchezdi/ros2_ws/install/sdv_msgs'})}
+[0.000881] (sdv_scripts) JobStarted: {'identifier': 'sdv_scripts'}
+[0.012501] (sdv_scripts) JobEnded: {'identifier': 'sdv_scripts', 'rc': 1}
+[0.023213] (-) EventReactorShutdown: {}

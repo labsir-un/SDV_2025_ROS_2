@@ -1,0 +1,159 @@
+/**:
+  ros__parameters:
+    bt_navigator:
+      base_global_planner: global_planner/GlobalPlanner
+      base_local_planner: eband_local_planner/EBandPlannerROS
+      clearing_rotation_allowed: false
+      controller_frequency: 15.0
+      controller_patience: 50.0
+      oscillation_distance: 0.2
+      oscillation_timeout: 50.0
+      planner_frequency: 2.5
+      planner_patience: 5.0
+      recovery_behavior_enabled: false
+      shutdown_costmaps: false
+    controller_server:
+      EBandPlannerROS:
+        costmap_weight: 12.5
+        differential_drive: true
+        eband_equilibrium_approx_max_recursion_depth: 4
+        eband_equilibrium_relative_overshoot: 0.75
+        eband_external_force_gain: 2.0
+        eband_internal_force_gain: 1.0
+        eband_min_relative_overlap: 0.45
+        eband_significant_force_lower_bound: 0.15
+        eband_tiny_bubble_distance: 5.5
+        eband_tiny_bubble_expansion: 3.0
+        k_prop: 2.5
+        max_vel_lin: 0.5
+        min_vel_lin: 0.1
+        num_iterations_eband_optimization: 3
+        xy_goal_tolerance: 0.09
+        yaw_goal_tolerance: 0.2
+      TrajectoryPlannerROS:
+        acc_lim_theta: 2.3
+        acc_lim_x: 4.0
+        angular_sim_granularity: 0.02
+        controller_frequency: 20.0
+        dwa: false
+        escape_reset_dist: 0.1
+        escape_reset_theta: 0.1
+        escape_vel: -0.5
+        gdist_scale: 1.0
+        heading_lookahead: 0.325
+        heading_scoring: false
+        heading_scoring_timestep: 0.8
+        holonomic_robot: false
+        latch_xy_goal_tolerance: false
+        max_vel_theta: 0.5
+        max_vel_x: 0.35
+        meter_scoring: true
+        min_in_place_vel_theta: 0.3
+        min_vel_theta: -0.5
+        min_vel_x: 0.08
+        occdist_scale: 0.1
+        oscillation_reset_dist: 0.09
+        pdist_scale: 0.75
+        publish_cost_grid_pc: true
+        sim_granularity: 0.02
+        sim_time: 2.0
+        simple_attractor: false
+        vtheta_samples: 20
+        vx_samples: 6
+        xy_goal_tolerance: 0.25
+        yaw_goal_tolerance: 0.157
+    costmap_common:
+      footprint:
+      - - 0.36
+        - 0.25
+      - - -0.36
+        - 0.25
+      - - -0.36
+        - -0.25
+      - - 0.36
+        - -0.25
+      inflation_layer:
+        cost_scaling_factor: 6.0
+        enabled: true
+        inflation_radius: 0.33
+      map_type: voxel
+      max_obstacle_height: 0.6
+      obstacle_layer:
+        bump:
+          clearing: false
+          data_type: PointCloud2
+          marking: true
+          max_obstacle_height: 0.15
+          min_obstacle_height: 0.0
+          topic: mobile_base/sensors/bumper_pointcloud
+        combination_method: 1
+        enabled: true
+        mark_threshold: 0
+        max_obstacle_height: 0.6
+        observation_sources: scan bump
+        obstacle_range: 3.5
+        origin_z: 0.0
+        publish_voxel_map: false
+        raytrace_range: 3.0
+        scan:
+          clearing: true
+          data_type: LaserScan
+          marking: true
+          max_obstacle_height: 0.35
+          min_obstacle_height: 0.0
+          topic: scan
+        track_unknown_space: true
+        unknown_threshold: 15
+        z_resolution: 0.2
+        z_voxels: 2
+      static_layer:
+        enabled: true
+    costmap_global:
+      global_costmap:
+        global_frame: map
+        plugins:
+        - name: static_layer
+          type: costmap_2d::StaticLayer
+        - name: obstacle_layer
+          type: costmap_2d::VoxelLayer
+        - name: inflation_layer
+          type: costmap_2d::InflationLayer
+        publish_frequency: 0.5
+        resolution: 0.03
+        robot_base_frame: base_link
+        static_map: true
+        transform_tolerance: 0.5
+        update_frequency: 1.0
+    costmap_local:
+      local_costmap:
+        global_frame: map
+        height: 4.0
+        plugins:
+        - name: obstacle_layer
+          type: costmap_2d::VoxelLayer
+        - name: inflation_layer
+          type: costmap_2d::InflationLayer
+        publish_frequency: 2.0
+        resolution: 0.025
+        robot_base_frame: base_link
+        rolling_window: true
+        static_map: false
+        transform_tolerance: 0.5
+        update_frequency: 5.0
+        width: 4.0
+    planner_server:
+      GlobalPlanner:
+        allow_unknown: true
+        cost_factor: 0.55
+        default_tolerance: 0.0
+        lethal_cost: 253
+        neutral_cost: 66
+        old_navfn_behavior: false
+        planner_costmap_publish_frequency: 0.0
+        planner_window_x: 0.0
+        planner_window_y: 0.0
+        publish_potential: true
+        publish_scale: 100
+        use_dijkstra: true
+        use_grid_path: false
+        use_quadratic: true

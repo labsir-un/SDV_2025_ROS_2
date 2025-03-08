@@ -1,0 +1,21 @@
+{
+  "package_name": "sdv_msgs",
+  "non_idl_tuples": [
+    "/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_msgs:msg/Batteries.msg",
+    "/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_msgs:msg/Battery.msg",
+    "/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_msgs:msg/Buzzer.msg",
+    "/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_msgs:msg/Drivers.msg",
+    "/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_msgs:msg/Encoder.msg",
+    "/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_msgs:msg/Flexiforce.msg",
+    "/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_msgs:msg/FourMotors.msg",
+    "/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_msgs:msg/ImuRaw.msg",
+    "/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_msgs:msg/LED.msg",
+    "/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_msgs:msg/MotorDriver.msg",
+    "/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_msgs:msg/PanelButton.msg",
+    "/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_msgs:msg/SdvPlatform.msg",
+    "/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_msgs:msg/SdvStatus.msg",
+    "/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_msgs:msg/TagRfid.msg",
+    "/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_msgs:msg/TwoMotors.msg",
+    "/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_msgs:msg/Ultrasound.msg"
+  ]
+}

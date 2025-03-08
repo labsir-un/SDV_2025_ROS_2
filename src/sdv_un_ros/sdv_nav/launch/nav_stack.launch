@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<launch>
+
+    <!-- Arguments -->
+    <arg name="map_file" default="$(find sdv_nav)/maps/LabFabEx.yaml" />
+    <arg name="laser_position" default="0.275 0 0.05 0 0 0 base_link laser 20" />
+<!-- old camera z  position 0.114 -->
+    <arg name="camera_position" default="0.3 -0.034 0.367 0 0 0 base_link camera_link 20" />
+    <arg name="request_source" default="True" />
+    <arg name="mapping" default="False" />
+    <arg name="localization" default="hector" />
+    <arg name="rtabmap" default="false" />
+
+    <!-- tf base_link laser -->
+    <node name="tf_sdv" pkg="tf" type="static_transform_publisher" args="$(arg laser_position)" />
+    <node name="tf_camera" pkg="tf" type="static_transform_publisher" args="$(arg camera_position)" />
+
+    <!-- Map server -->
+    <group unless="$(arg mapping)">
+        <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" />
+    </group>
+
+    <!-- Localization  -->
+    <!--include file="$(find sdv_nav)/launch/hector_mapping.launch" /-->
+    <group if="$(eval arg('localization') == 'hector')">
+        <include file="$(find sdv_nav)/launch/hector_mapping.launch" />
+    </group>
+    <group if="$(eval arg('localization') == 'amcl')">
+        <include file="$(find sdv_nav)/launch/amcl.launch" />
+    </group>
+    <include if="$(arg rtabmap)" file="$(find sdv_nav)/launch/rtab_map.launch">
+        <arg if="$(eval arg('localization') == 'hector')" name="hector" value="true" />
+    </include>
+
+    <!-- Move base -->
+    <include file="$(find sdv_nav)/launch/move_base.launch" />
+
+    <!-- Costmap Cleaner -->
+    <node name="costmap_cleaner" pkg="sdv_nav" type="costmap_cleaner.py" args="_request_source:=$(arg request_source)" output="screen" />
+
+</launch>
+

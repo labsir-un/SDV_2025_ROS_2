@@ -1,0 +1,67 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sdv_msgs/msg/SdvStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module sdv_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "sdv_status.msg")
+    struct SdvStatus {
+      std_msgs::msg::Header header;
+
+      boolean energized;
+
+      boolean stand_by;
+
+      boolean rotate;
+
+      boolean turn_left;
+
+      boolean turn_right;
+
+      boolean reverse;
+
+      boolean forward;
+
+      boolean low_batt;
+
+      boolean emergency_stop;
+
+      boolean reset_pc;
+
+      boolean poweroff_pc;
+
+      boolean obstacle_stop;
+
+      boolean over_load;
+
+      boolean connection_error;
+
+      boolean tag_disconnected;
+
+      boolean tag_init;
+
+      boolean tag_is_on_platform;
+
+      boolean tag_read_error;
+
+      boolean tag_write_error;
+
+      boolean tag_close;
+
+      boolean not_connection_error;
+
+      boolean connection_error_imu;
+
+      boolean connection_error_msp;
+
+      boolean connection_error_rfid;
+
+      boolean connection_error_ult;
+
+      boolean connection_error_batt;
+    };
+  };
+};

@@ -1,0 +1,31 @@
+# SDVUN1 Parameters
+sdv:
+  robot_model: SDV4
+  motor_drive_type: mecanum
+  laser_model: None
+  wheel_separation: 0.415
+  wheel_axis_separation: 0.39
+  nuc_ip: "192.168.1.14"
+  board_port: "/dev/ttyACM0"
+  board_baudrate: 921600
+  laser_position: "0 0 0 0 0 0"
+  camera_model: ZED_Mini
+  camera_position: "0 0 0 0 0 0"
+
+# Move base params
+move_base:
+  global_costmap:
+    footprint: [[0.324,0.190],[-0.220, 0.190],[-0.220,-0.190],[0.324,-0.190]]
+  local_costmap:
+    footprint: [[0.324,0.190],[-0.220, 0.190],[-0.220,-0.190],[0.324,-0.190]]
+  EBandPlannerROS:
+    max_vel_th: 0.4
+    min_vel_th: 0.1
+    min_in_place_vel_th: 0.3
+
+# Imu params
+imu_filter_node:
+  gain: 0.5
+  mag_bias_x: 0.00002115550
+  mag_bias_y: 0.00001905450
+  mag_bias_z: 0.00002745700

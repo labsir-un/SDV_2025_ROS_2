@@ -1,0 +1,235 @@
+[0.021s] Invoking command in '/home/cafsanchezdi/ros2_ws/build/sdv_scripts': CMAKE_PREFIX_PATH=/home/cafsanchezdi/ros2_ws/install/sdv_msgs:/home/cafsanchezdi/ros2_ws/install/sdv_process:/home/cafsanchezdi/ros2_ws/install/sdv_serial:/home/cafsanchezdi/ros2_ws/install/sdv_scripts:/home/cafsanchezdi/ros2_ws/install/sdv_nav:/home/cafsanchezdi/ros2_ws/install/sdv_joystick:/home/cafsanchezdi/ros2_ws/install/rtabmap_conversions:/home/cafsanchezdi/ros2_ws/install/rtabmap_msgs:/home/cafsanchezdi/ros2_ws/install/camera_platform:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib:/home/cafsanchezdi/ros2_ws/install/sdv_process/lib:/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib:/home/cafsanchezdi/ros2_ws/install/rtabmap_conversions/lib:/home/cafsanchezdi/ros2_ws/install/rtabmap_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages:/home/cafsanchezdi/ros2_ws/install/sdv_process/lib/python3.12/site-packages:/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages:/home/cafsanchezdi/ros2_ws/install/rtabmap_python/lib/python3.12/site-packages:/home/cafsanchezdi/ros2_ws/install/rtabmap_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/cafsanchezdi/ros2_ws/src/sdv_scripts -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/cafsanchezdi/ros2_ws/install/sdv_scripts
+[0.088s] -- The C compiler identification is GNU 13.3.0
+[0.155s] -- The CXX compiler identification is GNU 13.3.0
+[0.180s] -- Detecting C compiler ABI info
+[0.307s] -- Detecting C compiler ABI info - done
+[0.317s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.317s] -- Detecting C compile features
+[0.317s] -- Detecting C compile features - done
+[0.331s] -- Detecting CXX compiler ABI info
+[0.467s] -- Detecting CXX compiler ABI info - done
+[0.475s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.475s] -- Detecting CXX compile features
+[0.476s] -- Detecting CXX compile features - done
+[0.482s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.666s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.813s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.818s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.829s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.911s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.978s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.984s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.029s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.764s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.332s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.064s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.069s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.220s] -- Found PythonExtra: /usr/bin/python3  
+[3.709s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.779s] -- Configuring done (3.7s)
+[3.819s] -- Generating done (0.0s)
+[3.823s] [33mCMake Warning:
+[3.823s]   Manually-specified variables were not used by the project:
+[3.823s] 
+[3.823s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[3.823s] 
+[3.823s] [0m
+[3.832s] -- Build files have been written to: /home/cafsanchezdi/ros2_ws/build/sdv_scripts
+[3.843s] Invoked command in '/home/cafsanchezdi/ros2_ws/build/sdv_scripts' returned '0': CMAKE_PREFIX_PATH=/home/cafsanchezdi/ros2_ws/install/sdv_msgs:/home/cafsanchezdi/ros2_ws/install/sdv_process:/home/cafsanchezdi/ros2_ws/install/sdv_serial:/home/cafsanchezdi/ros2_ws/install/sdv_scripts:/home/cafsanchezdi/ros2_ws/install/sdv_nav:/home/cafsanchezdi/ros2_ws/install/sdv_joystick:/home/cafsanchezdi/ros2_ws/install/rtabmap_conversions:/home/cafsanchezdi/ros2_ws/install/rtabmap_msgs:/home/cafsanchezdi/ros2_ws/install/camera_platform:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib:/home/cafsanchezdi/ros2_ws/install/sdv_process/lib:/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib:/home/cafsanchezdi/ros2_ws/install/rtabmap_conversions/lib:/home/cafsanchezdi/ros2_ws/install/rtabmap_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages:/home/cafsanchezdi/ros2_ws/install/sdv_process/lib/python3.12/site-packages:/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages:/home/cafsanchezdi/ros2_ws/install/rtabmap_python/lib/python3.12/site-packages:/home/cafsanchezdi/ros2_ws/install/rtabmap_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/cafsanchezdi/ros2_ws/src/sdv_scripts -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/cafsanchezdi/ros2_ws/install/sdv_scripts
+[3.844s] Invoking command in '/home/cafsanchezdi/ros2_ws/build/sdv_scripts': CMAKE_PREFIX_PATH=/home/cafsanchezdi/ros2_ws/install/sdv_msgs:/home/cafsanchezdi/ros2_ws/install/sdv_process:/home/cafsanchezdi/ros2_ws/install/sdv_serial:/home/cafsanchezdi/ros2_ws/install/sdv_scripts:/home/cafsanchezdi/ros2_ws/install/sdv_nav:/home/cafsanchezdi/ros2_ws/install/sdv_joystick:/home/cafsanchezdi/ros2_ws/install/rtabmap_conversions:/home/cafsanchezdi/ros2_ws/install/rtabmap_msgs:/home/cafsanchezdi/ros2_ws/install/camera_platform:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib:/home/cafsanchezdi/ros2_ws/install/sdv_process/lib:/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib:/home/cafsanchezdi/ros2_ws/install/rtabmap_conversions/lib:/home/cafsanchezdi/ros2_ws/install/rtabmap_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages:/home/cafsanchezdi/ros2_ws/install/sdv_process/lib/python3.12/site-packages:/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages:/home/cafsanchezdi/ros2_ws/install/rtabmap_python/lib/python3.12/site-packages:/home/cafsanchezdi/ros2_ws/install/rtabmap_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/cafsanchezdi/ros2_ws/build/sdv_scripts -- -j4 -l4
+[3.919s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.932s] [  2%] Built target ament_cmake_python_copy_sdv_scripts
+[4.110s] [  2%] Built target sdv_scripts__rosidl_generator_type_description
+[4.126s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.143s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.159s] running egg_info
+[4.159s] creating sdv_scripts.egg-info
+[4.179s] writing sdv_scripts.egg-info/PKG-INFO
+[4.179s] writing dependency_links to sdv_scripts.egg-info/dependency_links.txt
+[4.179s] writing top-level names to sdv_scripts.egg-info/top_level.txt
+[4.179s] writing manifest file 'sdv_scripts.egg-info/SOURCES.txt'
+[4.239s] reading manifest file 'sdv_scripts.egg-info/SOURCES.txt'
+[4.240s] writing manifest file 'sdv_scripts.egg-info/SOURCES.txt'
+[4.294s] [  8%] Built target ament_cmake_python_build_sdv_scripts_egg
+[4.410s] [  8%] Built target sdv_scripts__cpp
+[4.426s] [ 14%] [32mBuilding C object CMakeFiles/sdv_scripts__rosidl_generator_c.dir/rosidl_generator_c/sdv_scripts/msg/detail/udp__type_support.c.o[0m
+[4.426s] [ 14%] [32mBuilding C object CMakeFiles/sdv_scripts__rosidl_generator_c.dir/rosidl_generator_c/sdv_scripts/msg/detail/udp__description.c.o[0m
+[4.427s] [ 17%] [32mBuilding C object CMakeFiles/sdv_scripts__rosidl_generator_c.dir/rosidl_generator_c/sdv_scripts/msg/detail/udp__functions.c.o[0m
+[4.485s] [ 20%] [32m[1mLinking C shared library libsdv_scripts__rosidl_generator_c.so[0m
+[4.539s] [ 20%] Built target sdv_scripts__rosidl_generator_c
+[4.554s] [ 23%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.556s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.556s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.556s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.795s] [ 35%] [32mBuilding CXX object CMakeFiles/sdv_scripts__rosidl_typesupport_c.dir/rosidl_typesupport_c/sdv_scripts/msg/udp__type_support.cpp.o[0m
+[4.807s] [ 38%] [32mBuilding CXX object CMakeFiles/sdv_scripts__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sdv_scripts/msg/udp__type_support.cpp.o[0m
+[4.815s] [ 41%] [32mBuilding C object CMakeFiles/sdv_scripts__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sdv_scripts/msg/detail/udp__type_support.c.o[0m
+[4.832s] [ 44%] [32mBuilding CXX object CMakeFiles/sdv_scripts__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sdv_scripts/msg/detail/udp__type_support_c.cpp.o[0m
+[4.845s] [ 47%] [32m[1mLinking CXX shared library libsdv_scripts__rosidl_typesupport_c.so[0m
+[4.861s] [ 50%] [32m[1mLinking C shared library libsdv_scripts__rosidl_typesupport_introspection_c.so[0m
+[4.899s] [ 50%] Built target sdv_scripts__rosidl_typesupport_c
+[4.909s] [ 50%] Built target sdv_scripts__rosidl_typesupport_introspection_c
+[4.914s] [ 52%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.925s] [ 55%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.119s] [ 58%] [32m[1mLinking CXX shared library libsdv_scripts__rosidl_typesupport_cpp.so[0m
+[5.171s] [ 58%] Built target sdv_scripts__rosidl_typesupport_cpp
+[5.194s] [ 61%] [32mBuilding CXX object CMakeFiles/sdv_scripts__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sdv_scripts/msg/detail/udp__type_support.cpp.o[0m
+[5.299s] [ 64%] [32mBuilding CXX object CMakeFiles/sdv_scripts__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sdv_scripts/msg/detail/dds_fastrtps/udp__type_support.cpp.o[0m
+[5.309s] [ 67%] [32m[1mLinking CXX shared library libsdv_scripts__rosidl_typesupport_fastrtps_c.so[0m
+[5.431s] [ 67%] Built target sdv_scripts__rosidl_typesupport_fastrtps_c
+[5.513s] [ 70%] [32m[1mLinking CXX shared library libsdv_scripts__rosidl_typesupport_introspection_cpp.so[0m
+[5.604s] [ 70%] Built target sdv_scripts__rosidl_typesupport_introspection_cpp
+[5.742s] [ 73%] [32m[1mLinking CXX shared library libsdv_scripts__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.860s] [ 73%] Built target sdv_scripts__rosidl_typesupport_fastrtps_cpp
+[5.891s] [ 73%] Built target sdv_scripts
+[5.924s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.203s] [ 76%] Built target sdv_scripts__py
+[6.235s] [ 79%] [32mBuilding C object CMakeFiles/sdv_scripts__rosidl_generator_py.dir/rosidl_generator_py/sdv_scripts/msg/_udp_s.c.o[0m
+[6.368s] [ 82%] [32m[1mLinking C shared library libsdv_scripts__rosidl_generator_py.so[0m
+[6.431s] [ 82%] Built target sdv_scripts__rosidl_generator_py
+[6.461s] [ 88%] [32mBuilding C object CMakeFiles/sdv_scripts_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/sdv_scripts/_sdv_scripts_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.462s] [ 88%] [32mBuilding C object CMakeFiles/sdv_scripts_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/sdv_scripts/_sdv_scripts_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.462s] [ 91%] [32mBuilding C object CMakeFiles/sdv_scripts_s__rosidl_typesupport_c.dir/rosidl_generator_py/sdv_scripts/_sdv_scripts_s.ep.rosidl_typesupport_c.c.o[0m
+[6.570s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/sdv_scripts/sdv_scripts_s__rosidl_typesupport_introspection_c.so[0m
+[6.570s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/sdv_scripts/sdv_scripts_s__rosidl_typesupport_c.so[0m
+[6.575s] [100%] [32m[1mLinking C shared module rosidl_generator_py/sdv_scripts/sdv_scripts_s__rosidl_typesupport_fastrtps_c.so[0m
+[6.614s] [100%] Built target sdv_scripts_s__rosidl_typesupport_c
+[6.616s] [100%] Built target sdv_scripts_s__rosidl_typesupport_introspection_c
+[6.624s] [100%] Built target sdv_scripts_s__rosidl_typesupport_fastrtps_c
+[6.644s] Invoked command in '/home/cafsanchezdi/ros2_ws/build/sdv_scripts' returned '0': CMAKE_PREFIX_PATH=/home/cafsanchezdi/ros2_ws/install/sdv_msgs:/home/cafsanchezdi/ros2_ws/install/sdv_process:/home/cafsanchezdi/ros2_ws/install/sdv_serial:/home/cafsanchezdi/ros2_ws/install/sdv_scripts:/home/cafsanchezdi/ros2_ws/install/sdv_nav:/home/cafsanchezdi/ros2_ws/install/sdv_joystick:/home/cafsanchezdi/ros2_ws/install/rtabmap_conversions:/home/cafsanchezdi/ros2_ws/install/rtabmap_msgs:/home/cafsanchezdi/ros2_ws/install/camera_platform:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib:/home/cafsanchezdi/ros2_ws/install/sdv_process/lib:/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib:/home/cafsanchezdi/ros2_ws/install/rtabmap_conversions/lib:/home/cafsanchezdi/ros2_ws/install/rtabmap_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages:/home/cafsanchezdi/ros2_ws/install/sdv_process/lib/python3.12/site-packages:/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages:/home/cafsanchezdi/ros2_ws/install/rtabmap_python/lib/python3.12/site-packages:/home/cafsanchezdi/ros2_ws/install/rtabmap_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/cafsanchezdi/ros2_ws/build/sdv_scripts -- -j4 -l4
+[6.659s] Invoking command in '/home/cafsanchezdi/ros2_ws/build/sdv_scripts': CMAKE_PREFIX_PATH=/home/cafsanchezdi/ros2_ws/install/sdv_msgs:/home/cafsanchezdi/ros2_ws/install/sdv_process:/home/cafsanchezdi/ros2_ws/install/sdv_serial:/home/cafsanchezdi/ros2_ws/install/sdv_scripts:/home/cafsanchezdi/ros2_ws/install/sdv_nav:/home/cafsanchezdi/ros2_ws/install/sdv_joystick:/home/cafsanchezdi/ros2_ws/install/rtabmap_conversions:/home/cafsanchezdi/ros2_ws/install/rtabmap_msgs:/home/cafsanchezdi/ros2_ws/install/camera_platform:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib:/home/cafsanchezdi/ros2_ws/install/sdv_process/lib:/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib:/home/cafsanchezdi/ros2_ws/install/rtabmap_conversions/lib:/home/cafsanchezdi/ros2_ws/install/rtabmap_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages:/home/cafsanchezdi/ros2_ws/install/sdv_process/lib/python3.12/site-packages:/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages:/home/cafsanchezdi/ros2_ws/install/rtabmap_python/lib/python3.12/site-packages:/home/cafsanchezdi/ros2_ws/install/rtabmap_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/cafsanchezdi/ros2_ws/build/sdv_scripts
+[6.670s] -- Install configuration: ""
+[6.671s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/ament_index/resource_index/rosidl_interfaces/sdv_scripts
+[6.672s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/msg/Udp.json
+[6.672s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts
+[6.672s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg
+[6.672s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/udp.h
+[6.672s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/rosidl_generator_c__visibility_control.h
+[6.672s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/detail
+[6.672s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/detail/udp__struct.h
+[6.672s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/detail/udp__type_support.h
+[6.673s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/detail/udp__functions.c
+[6.673s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/detail/udp__functions.h
+[6.673s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/detail/udp__type_support.c
+[6.673s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/detail/udp__description.c
+[6.674s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/environment/library_path.sh
+[6.674s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/environment/library_path.dsv
+[6.674s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/libsdv_scripts__rosidl_generator_c.so
+[6.674s] -- Set non-toolchain portion of runtime path of "/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/libsdv_scripts__rosidl_generator_c.so" to ""
+[6.675s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts
+[6.675s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg
+[6.675s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.675s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/detail
+[6.675s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/detail/udp__rosidl_typesupport_fastrtps_c.h
+[6.675s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/libsdv_scripts__rosidl_typesupport_fastrtps_c.so
+[6.676s] -- Set non-toolchain portion of runtime path of "/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/libsdv_scripts__rosidl_typesupport_fastrtps_c.so" to ""
+[6.676s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts
+[6.676s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg
+[6.676s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.676s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/detail
+[6.676s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/detail/udp__rosidl_typesupport_introspection_c.h
+[6.676s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/detail/udp__type_support.c
+[6.676s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/libsdv_scripts__rosidl_typesupport_introspection_c.so
+[6.677s] -- Set non-toolchain portion of runtime path of "/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/libsdv_scripts__rosidl_typesupport_introspection_c.so" to ""
+[6.677s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/libsdv_scripts__rosidl_typesupport_c.so
+[6.677s] -- Set non-toolchain portion of runtime path of "/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/libsdv_scripts__rosidl_typesupport_c.so" to ""
+[6.677s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts
+[6.677s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg
+[6.677s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/udp.hpp
+[6.678s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.678s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/detail
+[6.678s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/detail/udp__traits.hpp
+[6.678s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/detail/udp__struct.hpp
+[6.678s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/detail/udp__type_support.hpp
+[6.679s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/detail/udp__builder.hpp
+[6.679s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts
+[6.679s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg
+[6.679s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.679s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/detail
+[6.679s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/detail/dds_fastrtps
+[6.679s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/detail/udp__rosidl_typesupport_fastrtps_cpp.hpp
+[6.679s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/libsdv_scripts__rosidl_typesupport_fastrtps_cpp.so
+[6.679s] -- Set non-toolchain portion of runtime path of "/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/libsdv_scripts__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.680s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts
+[6.680s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg
+[6.680s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/detail
+[6.680s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/detail/udp__rosidl_typesupport_introspection_cpp.hpp
+[6.680s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/include/sdv_scripts/sdv_scripts/msg/detail/udp__type_support.cpp
+[6.680s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/libsdv_scripts__rosidl_typesupport_introspection_cpp.so
+[6.681s] -- Set non-toolchain portion of runtime path of "/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/libsdv_scripts__rosidl_typesupport_introspection_cpp.so" to ""
+[6.681s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/libsdv_scripts__rosidl_typesupport_cpp.so
+[6.681s] -- Set non-toolchain portion of runtime path of "/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/libsdv_scripts__rosidl_typesupport_cpp.so" to ""
+[6.681s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/environment/pythonpath.sh
+[6.681s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/environment/pythonpath.dsv
+[6.681s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts-0.0.1-py3.12.egg-info
+[6.682s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts-0.0.1-py3.12.egg-info/PKG-INFO
+[6.682s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts-0.0.1-py3.12.egg-info/dependency_links.txt
+[6.682s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts-0.0.1-py3.12.egg-info/SOURCES.txt
+[6.682s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts-0.0.1-py3.12.egg-info/top_level.txt
+[6.682s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts
+[6.682s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts/sdv_scripts_s__rosidl_typesupport_introspection_c.so
+[6.683s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts/sdv_scripts_s__rosidl_typesupport_c.so
+[6.683s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts/_sdv_scripts_s.ep.rosidl_typesupport_introspection_c.c
+[6.683s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts/_sdv_scripts_s.ep.rosidl_typesupport_c.c
+[6.683s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts/sdv_scripts_s__rosidl_typesupport_fastrtps_c.so
+[6.684s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts/msg
+[6.684s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts/msg/_udp_s.c
+[6.684s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts/msg/_udp.py
+[6.684s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts/msg/__init__.py
+[6.684s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts/_sdv_scripts_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.684s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts/__init__.py
+[6.724s] Listing '/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts'...
+[6.724s] Compiling '/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts/__init__.py'...
+[6.724s] Listing '/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts/msg'...
+[6.724s] Compiling '/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts/msg/__init__.py'...
+[6.725s] Compiling '/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts/msg/_udp.py'...
+[6.731s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts/sdv_scripts_s__rosidl_typesupport_fastrtps_c.so
+[6.732s] -- Set non-toolchain portion of runtime path of "/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts/sdv_scripts_s__rosidl_typesupport_fastrtps_c.so" to ""
+[6.732s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts/sdv_scripts_s__rosidl_typesupport_introspection_c.so
+[6.733s] -- Set non-toolchain portion of runtime path of "/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts/sdv_scripts_s__rosidl_typesupport_introspection_c.so" to ""
+[6.733s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts/sdv_scripts_s__rosidl_typesupport_c.so
+[6.734s] -- Set non-toolchain portion of runtime path of "/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages/sdv_scripts/sdv_scripts_s__rosidl_typesupport_c.so" to ""
+[6.734s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/libsdv_scripts__rosidl_generator_py.so
+[6.734s] -- Set non-toolchain portion of runtime path of "/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/libsdv_scripts__rosidl_generator_py.so" to ""
+[6.735s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/msg/Udp.idl
+[6.735s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/msg/Udp.msg
+[6.735s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/ament_index/resource_index/package_run_dependencies/sdv_scripts
+[6.735s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/ament_index/resource_index/parent_prefix_path/sdv_scripts
+[6.735s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/environment/ament_prefix_path.sh
+[6.736s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/environment/ament_prefix_path.dsv
+[6.736s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/environment/path.sh
+[6.736s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/environment/path.dsv
+[6.736s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/local_setup.bash
+[6.736s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/local_setup.sh
+[6.736s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/local_setup.zsh
+[6.736s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/local_setup.dsv
+[6.737s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/package.dsv
+[6.737s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/ament_index/resource_index/packages/sdv_scripts
+[6.737s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/cmake/export_sdv_scripts__rosidl_generator_cExport.cmake
+[6.738s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/cmake/export_sdv_scripts__rosidl_generator_cExport-noconfig.cmake
+[6.738s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/cmake/export_sdv_scripts__rosidl_typesupport_fastrtps_cExport.cmake
+[6.738s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/cmake/export_sdv_scripts__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.738s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/cmake/sdv_scripts__rosidl_typesupport_introspection_cExport.cmake
+[6.738s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/cmake/sdv_scripts__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.738s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/cmake/sdv_scripts__rosidl_typesupport_cExport.cmake
+[6.738s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/cmake/sdv_scripts__rosidl_typesupport_cExport-noconfig.cmake
+[6.739s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/cmake/export_sdv_scripts__rosidl_generator_cppExport.cmake
+[6.739s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/cmake/export_sdv_scripts__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.739s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/cmake/export_sdv_scripts__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.739s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/cmake/sdv_scripts__rosidl_typesupport_introspection_cppExport.cmake
+[6.739s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/cmake/sdv_scripts__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.739s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/cmake/sdv_scripts__rosidl_typesupport_cppExport.cmake
+[6.740s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/cmake/sdv_scripts__rosidl_typesupport_cppExport-noconfig.cmake
+[6.740s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/cmake/export_sdv_scripts__rosidl_generator_pyExport.cmake
+[6.740s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/cmake/export_sdv_scripts__rosidl_generator_pyExport-noconfig.cmake
+[6.740s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/cmake/rosidl_cmake-extras.cmake
+[6.741s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.741s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.741s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/cmake/ament_cmake_export_libraries-extras.cmake
+[6.741s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/cmake/ament_cmake_export_targets-extras.cmake
+[6.741s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.741s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.742s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/cmake/sdv_scriptsConfig.cmake
+[6.742s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/cmake/sdv_scriptsConfig-version.cmake
+[6.742s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_scripts/share/sdv_scripts/package.xml
+[6.746s] Invoked command in '/home/cafsanchezdi/ros2_ws/build/sdv_scripts' returned '0': CMAKE_PREFIX_PATH=/home/cafsanchezdi/ros2_ws/install/sdv_msgs:/home/cafsanchezdi/ros2_ws/install/sdv_process:/home/cafsanchezdi/ros2_ws/install/sdv_serial:/home/cafsanchezdi/ros2_ws/install/sdv_scripts:/home/cafsanchezdi/ros2_ws/install/sdv_nav:/home/cafsanchezdi/ros2_ws/install/sdv_joystick:/home/cafsanchezdi/ros2_ws/install/rtabmap_conversions:/home/cafsanchezdi/ros2_ws/install/rtabmap_msgs:/home/cafsanchezdi/ros2_ws/install/camera_platform:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib:/home/cafsanchezdi/ros2_ws/install/sdv_process/lib:/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib:/home/cafsanchezdi/ros2_ws/install/rtabmap_conversions/lib:/home/cafsanchezdi/ros2_ws/install/rtabmap_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages:/home/cafsanchezdi/ros2_ws/install/sdv_process/lib/python3.12/site-packages:/home/cafsanchezdi/ros2_ws/install/sdv_scripts/lib/python3.12/site-packages:/home/cafsanchezdi/ros2_ws/install/rtabmap_python/lib/python3.12/site-packages:/home/cafsanchezdi/ros2_ws/install/rtabmap_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/cafsanchezdi/ros2_ws/build/sdv_scripts

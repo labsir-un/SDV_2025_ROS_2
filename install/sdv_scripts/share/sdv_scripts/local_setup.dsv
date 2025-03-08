@@ -1,0 +1,4 @@
+source;share/sdv_scripts/environment/ament_prefix_path.sh
+source;share/sdv_scripts/environment/library_path.sh
+source;share/sdv_scripts/environment/path.sh
+source;share/sdv_scripts/environment/pythonpath.sh

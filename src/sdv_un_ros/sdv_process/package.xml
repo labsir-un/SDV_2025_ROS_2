@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>sdv_process</name>
+  <version>0.0.1</version>
+  <description>The sdv_process package</description>
+  <maintainer email="cafsanchezdi@unal.edu.co">cafsanchezdi</maintainer>
+  <license>TODO</license>
+
+  <!-- Build tools -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- Dependencies -->
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>action_msgs</depend>
+  <depend>nav2_msgs</depend> 
+  <depend>std_msgs</depend>
+  <depend>sdv_serial</depend>
+
+  <!-- Messages -->
+  <depend>rosidl_default_generators</depend>
+  <depend>rosidl_default_runtime</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+</package>
+

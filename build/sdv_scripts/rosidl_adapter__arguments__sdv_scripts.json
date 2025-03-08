@@ -1,0 +1,6 @@
+{
+  "package_name": "sdv_scripts",
+  "non_idl_tuples": [
+    "/home/cafsanchezdi/ros2_ws/src/sdv_scripts:msg/Udp.msg"
+  ]
+}

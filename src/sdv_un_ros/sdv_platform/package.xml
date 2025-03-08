@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>camera_platform</name>
+  <version>0.0.1</version>
+  <description>
+    A package to manage camera platform operations such as capturing images and displaying them.
+  </description>
+
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  
+  <license>Apache 2.0</license>
+
+  <!-- Build and Exec Dependencies -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  
+  <!-- Dependencies for runtime -->
+  <exec_depend>opencv</exec_depend> <!-- Confirm this is installed -->
+
+  <!-- Test dependencies (optional) -->
+  <!-- <test_depend>ament_lint</test_depend> -->
+  <!-- <test_depend>ament_lint_common</test_depend> -->
+
+</package>
+

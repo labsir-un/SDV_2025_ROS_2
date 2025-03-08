@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+
+	<include file="$(find realsense_camera)/launch/r200_nodelet_rgbd.launch"/>
+
+	<node pkg="rtabmap_ros" type="pointcloud_to_depthimage" name="pointcloud_to_depthimage" output="screen">
+	    <param name="fill_holes_size" value="2"/>
+	    <param name="approx" type="bool" value="false"/>
+
+	    <!-- inputs -->
+	    <remap from="cloud"       to="/camera/depth/points"/>
+	    <remap from="camera_info" to="/camera/rgb/camera_info"/>
+	    <!-- outputs -->
+	    <remap from="image_raw"   to="/camera/depth/points/image_raw"/>
+	    <remap from="image"       to="/camera/depth/points/image"/>
+	</node>     
+</launch>

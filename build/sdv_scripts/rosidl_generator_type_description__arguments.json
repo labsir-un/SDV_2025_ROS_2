@@ -1,0 +1,12 @@
+{
+  "package_name": "sdv_scripts",
+  "output_dir": "/home/cafsanchezdi/ros2_ws/build/sdv_scripts/rosidl_generator_type_description/sdv_scripts",
+  "idl_tuples": [
+    "/home/cafsanchezdi/ros2_ws/build/sdv_scripts/rosidl_adapter/sdv_scripts:msg/Udp.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs"
+  ]
+}

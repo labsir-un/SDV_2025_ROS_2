@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sdv_msgs/msg/PanelButton.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module sdv_msgs {
+  module msg {
+    module PanelButton_Constants {
+      const uint8 RELEASED = 0;
+      const uint8 ONE_PRESSED = 1;
+      const uint8 ONE_LONG_PRESSED = 2;
+      const uint8 TWO_PRESSED = 3;
+      const uint8 THREE_PRESSED = 4;
+      const uint8 HARD_PRESSED = 5;
+      const uint8 NEVER_PRESSED = 6;
+      const uint8 FAILED_PRESSED = 7;
+    };
+    @verbatim (language="comment", text=
+      "PanelButton.msg")
+    struct PanelButton {
+      std_msgs::msg::Header header;
+
+      uint8 status;
+    };
+  };
+};

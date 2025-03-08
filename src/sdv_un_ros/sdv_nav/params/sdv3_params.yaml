@@ -1,0 +1,31 @@
+# SDVUN3 Parameters
+sdv:
+  robot_model: SDV3
+  motor_drive_type: diferential
+  laser_model: LMS102
+  wheel_separation: 0.4337
+  wheel_axis_separation: 0.338
+  nuc_ip: "192.168.1.13"
+  board_port: "/dev/ttyACM0"
+  board_baudrate: 921600
+  laser_position: "0.280 0 0 0 0 0"
+  camera_model: RealSense
+  camera_position: "0 0 0 0 0 0"
+
+# Move base params
+move_base:
+  global_costmap:
+    footprint: [[0.332,0.235],[-0.230,0.235],[-0.230,-0.235],[0.332,-0.235]]
+  local_costmap:
+    footprint: [[0.332,0.235],[-0.230,0.235],[-0.230,-0.235],[0.332,-0.235]]
+  EBandPlannerROS:
+    max_vel_th: 0.6
+    min_vel_th: 0.1
+    min_in_place_vel_th: 0.3
+
+# Imu params
+imu_filter_node:
+  gain: 0.5
+  mag_bias_x: 0.00002115550
+  mag_bias_y: 0.00001905450
+  mag_bias_z: 0.00002745700

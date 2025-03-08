@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<launch>
+	<!-- Arguments -->
+	<arg name="firebase" default="true" />
+	<arg name="localization" default="hector" />
+	<arg name="platform_camera" default="false" />
+
+	<!-- ROS Params -->
+	<rosparam command="load" file="$(find sdv_nav)/sdv_params.yaml" />
+
+	<!-- Firebase Bridge -->
+	<node name="firebase_bridge" pkg="sdv_process" type="firebase_bridge.py" output="screen" />
+	
+    <!-- ROS Coms -->
+	<group if="$(arg firebase)">
+		<node name="ros_coms" pkg="sdv_process" type="firebase_coms_launcher.sh" output="screen" />
+	</group>
+	
+    <!-- SDV Navigation Stack -->
+	<include file="$(find sdv_nav)/launch/sdv_nav.launch">
+		<arg name="localization" value="$(arg localization)" />
+	</include>
+	
+    <!-- Platform Camera Watcher -->
+	<group if="$(eval arg('platform_camera') == 'true')">
+		<include file="$(find sdv_nav)/launch/camera.launch">
+		</include>
+		<node name="camera_watcher" pkg="sdv_platform" type="camera_watcher.py" output="screen" />
+	</group>
+</launch>

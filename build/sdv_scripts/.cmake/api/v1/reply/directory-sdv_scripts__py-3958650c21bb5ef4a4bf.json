@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "sdv_scripts__py",
+		"source" : "/home/cafsanchezdi/ros2_ws/build/sdv_scripts/sdv_scripts__py"
+	}
+}

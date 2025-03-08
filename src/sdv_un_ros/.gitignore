@@ -1,0 +1,49 @@
+# Eclipse files
+.cproject
+.project
+.pydevproject
+
+# ROS Files
+cmake_install.cmake
+build/
+bin/
+lib/
+msg_gen/
+srv_gen/
+*.bag
+**/__pycache__
+**/*.pyc
+
+# We don't care about vi swp backup files and gedit backup files
+*.swp
+*.txt~
+*.msg~
+*.xml~
+*.srv~
+*.cpp~
+*.h~
+*.py~
+*.yaml~
+
+# We don't care about .txt~ files
+*.txt~
+*.md~
+
+# We don't care about .pdf and .gv files
+*.pdf
+*.gv
+
+# LASER files, AGV dependant.
+# AGV 2 and 3
+laser_drivers
+# AGV 1
+sicknav350
+sicktoolbox
+
+# Compressed Files
+*.zip
+*.tar.gz
+
+# sdv_params.yaml in sdv_nav folder: This file is unique for every SDV model
+# and needs to be selected manually.
+sdv_nav/sdv_params.yaml

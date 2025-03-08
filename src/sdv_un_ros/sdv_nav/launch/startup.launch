@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<launch>
+
+    <!-- ROS Params-->
+    <rosparam command="load" file="$(find sdv_nav)/sdv_params.yaml" />
+
+    <!-- SDV Serial communication -->
+    <node name="sdv_serial_node" pkg="sdv_serial" type="sdv_serial_node" output="screen" respawn="true" respawn_delay="5" />
+
+    <!-- TF Publisher for imu_link -->
+    <node name="imu_to_map_tf" pkg="tf" type="static_transform_publisher" args="1 0 0 0 0 0 /map /imu_link 20" />
+
+    <!-- Madgwick filter -->
+    <node pkg="imu_filter_madgwick" type="imu_filter_node" name="imu_filter_node">
+        <param name="use_mag" value="true" />
+        <param name="use_magnetic_field_msg" value="true" />
+        <param name="fixed_frame" value="map" />
+        <param name="publish_tf" value="false" />
+        <param name="gain" value="0.05" />
+        <param name="zeta" value="0.0" />
+        <param name="world_frame" value="enu" />
+    </node>
+
+</launch>

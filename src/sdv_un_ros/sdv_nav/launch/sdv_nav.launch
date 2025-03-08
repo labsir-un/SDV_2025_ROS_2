@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<launch>
+
+    <!-- Arguments -->
+    <arg name="laser_position" default="0.275 0 0.05 0 0 0 base_link laser 20" />
+    <arg name="camera_position" default="0.3 -0.034 0.367 0 0 0 base_link camera_link 20" />
+    <arg name="request_source" default="True" />
+    <arg name="mapping" default="False" />
+    <arg name="localization" default="hector" />
+    <arg name="rtabmap" default="false" />
+
+    <!-- ROS Params-->
+    <rosparam command="load" file="$(find sdv_nav)/sdv_params.yaml" />
+
+    <!-- Serial Communication with Tiva Board -->
+    <node name="sdv_serial_node" pkg="sdv_serial" type="sdv_serial_node" output="screen" respawn_delay="5" />
+
+    <!-- Add Laser or Depth Camera nodes as scan data source -->
+    <!-- Laser Node: Reads Ethernet interface data from laser -->
+    <!-- Camera Node: Uses ZED-Mini depth images to obtaines cloud points -->
+    <node name="scan_data_source" pkg="sdv_nav" type="scan_data_source.sh" />
+
+    <!-- Use r200 realsense -->
+    <group if="$(arg rtabmap)">
+        <include file="$(find sdv_nav)/launch/camera.launch" />
+    </group>
+
+    <!-- Navigation Stack -->
+    <include file="$(find sdv_nav)/launch/nav_stack.launch">
+        <arg name="laser_position" value="$(arg laser_position)" />
+        <arg name="request_source" value="$(arg request_source)" />
+        <arg name="mapping" value="$(arg mapping)" />
+        <arg name="localization" value="$(arg localization)" />
+        <arg name="rtabmap" value="$(arg rtabmap)" />
+    </include>
+
+    <!-- ROSBridge Server -->
+    <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch">
+        <arg name="port" value="9090" />
+    </include>
+
+    <!-- UDP Local control -->
+    <include file="$(find sdv_scripts)/launch/udp_control.launch"></include>
+
+</launch>

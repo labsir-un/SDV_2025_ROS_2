@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sdv_msgs/msg/Battery.msg
+// generated code does not contain a copyright notice
+
+
+module sdv_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Battery.msg")
+    struct Battery {
+      string name;
+
+      sequence<float> cell_voltages;
+    };
+  };
+};
