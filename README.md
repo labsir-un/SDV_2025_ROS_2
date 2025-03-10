@@ -1,4 +1,10 @@
-# MIGRACIÓN SDV UNx ROS1 A ROS2
+
+
+--- 
+### Este trabajo fue desarrollado por dos personas de manera simultánea e independiente, por lo que en este espacio se concentran los dos desarrollos en enlaces distintos.
+---
+
+# MIGRACIÓN SDV UNx ROS1 A ROS2 - Iteración 1
 
 ### Estudiante: Carlos Felipe Sánchez Díaz
 
@@ -53,3 +59,16 @@ Importancia notar aspectos no técnicos de los proyectos, como disponibilidad de
 ### Enlace: https://github.com/cafsanchezdi/SDV_UN_R2/tree/Project
 
 Palabras Clave: SDV, Robotics, AGV, ROS2, ROS1, Migration.
+
+--- 
+
+# Iteración 2
+
+### Estudiante: Christian Andrés Vargas Pérez
+### Enlace: https://github.com/CVarPer/SDV_UN_ROS2
+
+
+
+
+
+
